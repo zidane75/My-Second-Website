@@ -3,32 +3,37 @@
 /*--------------- 
 \  first banner  /
 ----------------*/
-.header-container {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: ;
-    height: 400px;
-    background-image: url("../world-cup-main/images/Banner.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 1px solid black;
-    padding: 150px 100px;
-    margin: 120px;
+.world-cup-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0 70px 20px 70px;
     background-color: black;
     border-radius: 20px;
+    width: auto;
+    padding-right: 50px;
+}
+
+.header-description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
 }
 
 .header-description h1 {
-    font-size: 70px;
+    font-size: 55px;
     color: white;
+    width: 50%;
+    margin-left: 60px;
 }
 
 .header-description p {
-    font-size: 15px;
+    font-size: 20px;
     color: whitesmoke;
-    margin-bottom: 40px;
-    word-wrap: break-word;
+    margin-left: 60px;
 }
 
 .header-description button {
@@ -39,4 +44,146 @@
     border-radius: 5px;
     text-decoration: none;
     border: none;
+    margin-bottom: 80px;
+    margin-left: 60px;
 }
+
+.marcelo {
+    width: 100%;
+    margin-top: 90px;
+
+}
+
+.marcelo img {
+    width: 100%;
+}
+
+/* header end */
+/* aise content */
+.aside-container {
+    display: grid;
+    border: 1px solid black;
+    height: 200px;
+    width: 180px;
+    margin-right: 10px;
+    padding: 25px;
+    grid-row-gap: 10px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.btn-1 {
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.btn-2 {
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: rgb(243, 78, 109);
+    /* text-decoration: rgb(247, 249, 252); */
+}
+
+/* aside end */
+/* main content */
+.transfer-news-container {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+
+    margin-bottom: 100px;
+}
+
+.transfer-news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-left: 40px;
+}
+
+.news .news-banner img {
+    width: 260px;
+    height: 140px;
+
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 248, 248);
+    width: 260px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.news-detail {
+    padding-left: 15px;
+}
+
+.news-info {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 20px;
+}
+
+.transfer-button {
+    border: 2px solid black;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* main content end */
+/*-------------
+ footer start
+ --------------- */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+
+}
+
+.footer-title {
+    color: aliceblue;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+
+nav>ul {
+    display: flex;
+
+    justify-content: space-between;
+    gap: 10px;
+
+
+
+    padding: 20px 10px !important;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: silver;
+}
+
+.terms {
+    margin-right: 25px;
+}
+
+.not-the-same {
+    margin-right: 100px;
+}
+
+
+/*------------
+  footer end
+  -----------*/

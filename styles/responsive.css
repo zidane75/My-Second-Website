@@ -1,0 +1,36 @@
+@media screen and (max-width: 876px) {
+    .world-cup-banner {
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+
+    .marcelo {
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+
+    .transfer-news-container {
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        margin: 10px;
+
+    }
+
+    .transfer-news {
+        grid-template-columns: 1fr;
+    }
+
+    .news-detail {
+        padding-left: 0;
+    }
+
+    .aside-container {
+        background-color: transparent;
+    }
+
+}
