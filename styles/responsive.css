@@ -84,6 +84,19 @@
 
     }
 
+    .view-all {
+        visibility: visible;
+        width: 22%;
+        padding: 10px;
+        margin: 35px;
+        margin-left: 280px;
+        background-color: rgb(250, 40, 20);
+        border: none;
+    }
 
+    .view-text {
+        color: aliceblue;
+        font-size: 25px;
+    }
 
 }

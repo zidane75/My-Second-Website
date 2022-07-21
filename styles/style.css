@@ -58,8 +58,12 @@
     width: 100%;
 }
 
-/* header end */
-/* aise content */
+/*---------- 
+  Banner end
+---------- */
+/* -----------
+  aside start
+-------------- */
 .aside-container {
     display: grid;
     border: 1px solid black;
@@ -86,8 +90,12 @@
 
 }
 
-/* aside end */
-/* main content */
+/*----------
+ aside end
+----------- */
+/*-------------
+ main start
+ -------------*/
 .transfer-news-container {
     display: grid;
     grid-template-columns: 400px 1fr;
@@ -136,7 +144,14 @@
     border-radius: 5px;
 }
 
-/* main content end */
+.view-all {
+    visibility: hidden;
+}
+
+/*------------- 
+ main content end
+ ---------------*/
+
 /*-------------
  footer start
  --------------- */
